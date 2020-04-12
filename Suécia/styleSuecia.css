@@ -1,0 +1,36 @@
+body, html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  background-color: #006699;
+  height: 580px;
+  width: 890px;
+  position: relative;
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+}
+
+.horizontal-stripe {
+  background-color: #ffcc00;
+  height: 115px;
+  width: 100%;
+}
+
+.vertical-stripe {
+  background-color: #ffcc00;
+  height: 100%;
+  left: 280px;
+  position: absolute;
+  width: 115px;
+}

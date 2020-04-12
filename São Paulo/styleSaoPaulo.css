@@ -1,0 +1,34 @@
+body,
+html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex; /* estabele container flex */
+  align-items: center; /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  height: 550px;
+  width: 870px;
+  background-color: white;
+  background-image: linear-gradient(
+    0deg,
+    #ffffff 25%,
+    #212125 25%,
+    #212125 50%,
+    #ffffff 50%,
+    #ffffff 75%,
+    #212125 75%,
+    #212125 100%
+  );
+  background-size: 170px 170px;
+}
+
+.symbol {
+  width: 320px;
+}

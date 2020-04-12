@@ -1,0 +1,29 @@
+body, html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  height: 540px;
+  width: 870px;
+  background-color: #ffffff;
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+}
+
+.circle {
+  background-color: #bc002d;
+  border-radius: 50%;
+  height: 60%;
+  width: 36%;
+}
+

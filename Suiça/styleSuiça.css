@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  position: relative;
+  height: 600px;
+  width: 600px;
+  background-color: #ff0000;
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+}
+
+.horizontal-line {
+  background-color: #ffffff;  
+  height: 18%;
+  width: 60%;
+}
+
+.vertical-line {
+  position: absolute;
+  background-color: #ffffff;
+  height: 60%;
+  width: 18%;
+}
+
+.symbol {
+  width: 90%;
+}
+

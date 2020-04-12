@@ -1,0 +1,46 @@
+body, html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  height: 580px;
+  width: 880px;
+}
+
+.red-block-left {
+  background-color: #da081e;
+  float: left;
+  height: 100%;
+  width: 33%;
+}
+
+.white-block {
+  background-color: white;
+  float: left;
+  height: 100%;
+  width: 33%;
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+}
+
+.red-block-right {
+  background-color: #da081e;
+  float: left;
+  height: 100%;
+  width: 33%;
+}
+
+.symbol {
+  width: 85%;
+}
+

@@ -1,0 +1,43 @@
+body,
+html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex; /* estabele container flex */
+  align-items: center; /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  height: 580px;
+  width: 880px;
+}
+
+.blue-block {
+  background-color: #0036a7;
+  height: 100%;
+  width: 33%;
+  display: flex; /* estabele container flex */
+  align-items: center; /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+}
+
+.white-block {
+  background-color: #ffffff;
+  height: 50%;
+  width: 100%;
+}
+
+.red-block {
+  background-color: #d62718;
+  height: 50%;
+  width: 100%;
+}
+
+.symbol {
+  width: 55%;
+}

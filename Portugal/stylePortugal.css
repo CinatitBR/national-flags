@@ -1,0 +1,40 @@
+body, html {
+  height: 100%;
+  background-color: lightgrey;
+}
+
+.container {
+  display: flex;           /* estabele container flex */
+  align-items: center;     /* centraliza itens verticalmente, nesse caso */
+  justify-content: center; /* centrliza itens horizontalmente, nesse caso */
+  height: 100%;
+  position: relative;
+}
+
+.flag {
+  height: 550px;
+  width: 880px;
+}
+
+.green-block {
+  background-color: #006600;
+  float: left;
+  height: 100%;
+  width: 35%;
+}
+
+.red-block {
+  background-color: #ff0000;
+  float: left;
+  height: 100%;
+  width: 60%;
+}
+
+.symbol {
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(0, -50%);
+  width: 20%;
+}
+
